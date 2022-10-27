@@ -6,8 +6,6 @@ Create a `Log` member function that accepts a CWID and adds it to the list of vi
 
 Create a `TotalVisitors` member function that returns the total number of visitors.
 
-Create a `Remove` member function that accepts a position in the list of visitors and removes the corresponding CWID.
-
 Create a `DisplayLog` member function that displays all the CWIDs logged. The CWIDs should be numbered from 1 onwards. Let's practice by using iterators to display each element of the vector. Here is an example of the output.
 
 ```
