@@ -6,15 +6,17 @@ Create a `Log` member function that accepts a CWID and adds it to the list of vi
 
 Create a `TotalVisitors` member function that returns the total number of visitors.
 
-Create a `Remove` member function that accepts a position in the list of visitors and removes the corresponding CWID.
-
-Create a `DisplayLog` member function that displays all the CWIDs logged. The CWIDs should be numbered from 1 onwards. Here is an example of the output.
+Create a `DisplayLog` member function that displays all the CWIDs logged. The CWIDs should be numbered from 1 onwards. Let's practice by using iterators to display each element of the vector. Here is an example of the output.
 
 ```
 1. 1121
 2. 2221
 3. 3220
 ```
+
+Create a `Remove` member function that accepts a position in the list of visitors and removes the corresponding CWID. Use the `std::vector::erase` member function.
+
+Create a `Visited` member function that accepts a CWID and returns `true` if a person with that CWID already visited and `false` otherwise. Use the `std::find` function to make it easier to find values in a `std::vector`. 
 
 ## Volunteer
 Create a `Volunteer` class that stores a name and a `std::shared_ptr` to a `VisitorLog`. Pointers will allow us to create a `Volunteer` that may or may not have access to a log.
